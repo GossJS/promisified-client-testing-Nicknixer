@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "mocha --compilers js:babel-register"
+  },
+  "name": "promisified-client-testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GossJS/promisified-client-testing.git",
+  "author": "gossoudarev <igossoudarev@herzen.spb.ru>",
+  "license": "MIT",
+  "devDependencies": {
+
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^3.5.3",
+    "should": "^13.0.1",
+    "zombie": "^5.0.7"
+  } 
+}

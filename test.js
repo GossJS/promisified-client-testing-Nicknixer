@@ -1,11 +1,7 @@
 const Zombie = require('zombie');
 const should = require('should');
-const URL = 'http://kodaktor.ru';
 var assert = require('assert');
 
-var Browser = require('zombie');
-const page = new Zombie();
-const g=URL=>new Promise((rs,rj)=>page.visit(URL,e=>(e)?rj(e):rs()));
 const data = [ 
 {"value": "il@gmail.com", "expected": "no"}, 
 {"value": "ilya@gmail.com", "expected": "yes"}, 
